@@ -9,7 +9,7 @@
   },
   "scripts": {
     "prebuild-skip": "tslint -c tslint.json -p tsconfig.json --fix",
-    "clean": "rimraf ./dist",
+    "clean": "rimraf dist",
     "build": "rimraf dist && tsc",
     "cra-start": "react-scripts start",
     "cra-build": "react-scripts build",
@@ -85,7 +85,7 @@
     "@emotion/react": "^11.7.1",
     "@nivo/bar": "^0.76.0",
     "@specfocus/spec-focus": "^0.2.0",
-    "@specfocus/view-focus": "^0.0.1",
+    "@specfocus/view-focus": "^0.0.4",
     "autosuggest-highlight": "^3.2.0",
     "crypto": "^1.0.1",
     "faker": "^5.5.3",
